@@ -111,84 +111,84 @@ def decrypt(msg):
 ```
 
 Let's give our coded message msg a space so that we can check where a new word appears.
-    ```
-    msg += ' '
-    ```
+```
+msg += ' '
+```
 
 Let's create a string decipher to be the decoded message that we will be decoding.
-    ```
-    decipher = ''
-    ```
+```
+decipher = ''
+```
 
 Let's create another string called citext. The reason we are making this is so that when we iterate through morse code, since it is not one letter, we will need to add dots and dashes to this string until the for loop that we are about to initiate senses a space.
-    ```
-    citext = ''
-    ```
+```
+citext = ''
+```
 
 Now we will iterate through every 'letter' in our morse code so that we can find the index, or placement of that value in our dictionary.
-    ```
-    for letter in msg:
-    ```
+```
+for letter in msg:
+```
 
 How again, we have to say that if the letter does not equal a space, a part of the omrse code will be added to the string citext.
-    ```
-        if letter != ' ':
-    ```
+```
+if letter != ' ':
+```
 
 Then the counter i will equal zero.
-    ```
-          i = 0
-    ```
+```
+i = 0
+```
 
 Then add the morse dash--- or dot to the string citext.
-    ```
-          citext += letter
-    ```
+```
+citext += letter
+```
 
 Otherwise
-    ```
-          else:
-    ```
+```
+else:
+```
 
 The counter i would equal 1 if the function senses a space as that would separate each letter of the morse code.
-    ```
-            i += 1
-    ```
+```
+i += 1
+```
 
 Otherwise, if i equals 2, which it only would if the word ended and a new word begun, as remember on the beginning of this, we added a space to our message to show the end of the word, and here is where we are using it.
-    ```
-            if i == 2:
-    ```
+```
+if i == 2:
+```
 
 Add a space to decipher as the word ended.
-          ```
-            decipher += ' '
-          ```
+```
+decipher += ' '
+```
 
 Otherwise, this would be if i = 0...
-            ```
-            else:
-            ```
+```
+else:
+```
 
 Make a new variable called dict_idx to store the index, or where the value of the morse code is stored in the dictionary.
-                ```
-    dict_idx =list(morse.values()).index(citext)
-                ```
+```
+dict_idx =list(morse.values()).index(citext)
+```
 
 This is adding the letter in morse code to our string decipher but finding the key in our dictionary which is the letter by using the index that we got previously.
-                ```
-      decipher += list(morse.keys())[dict_idx]
-                ```
+```
+decipher += list(morse.keys())[dict_idx]
+```
 
 Now we are resetting our citext so that we can add those dots and dashes again.
-                ```
-                citext = ''
-                ```
+```
+citext = ''
+```
 
 We are resetting our index variable so that we can find another inded for the next 'letter'
-                ```
-                dict_idx = ''
-                ```
+```
+dict_idx = ''
+```
 
 Now we return decipher as the output.
 ```    
