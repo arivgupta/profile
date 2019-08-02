@@ -108,3 +108,79 @@ print(secretmessage)
 And there you have it, a fully functional morse code encryption device built by yourself!
 
 If you would like to download this code, click [here](Morse Code/MorseCode.py).
+
+Now let's make another function called decrypt so that we can decrypt out message.
+```
+def decrypt(msg):
+```
+    ```
+    msg += ' '
+    ```
+
+    ```
+    decipher = ''
+    ```
+
+    ```
+    citext = ''
+    ```
+
+    ```
+    for letter in msg:
+    ```
+
+    ```
+        if letter != ' ':
+    ```
+
+    ```
+          i = 0
+    ```
+
+    ```
+          citext += letter
+    ```
+
+    ```
+          else:
+    ```
+
+    ```
+            i += 1
+    ```
+
+    ```
+            if i == 2:
+    ```
+
+            ```
+            else:
+            ```
+
+                ```
+                dict_idx =
+                ```
+
+                ```
+                list(morse.values()).index(citext)
+                ```
+
+                ```
+                decipher +=
+                ```
+
+                ```
+                list(morse.keys())[dict_idx]
+                ```
+
+                ```
+                citext = ''
+                ```
+
+                ```
+                dict_idx = ''
+                ```
+
+```    
+return decipher
+```
