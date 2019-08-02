@@ -1,0 +1,17 @@
+body {
+  background-color: #FFCC00;
+}
+
+hi {
+  font-family: comic-sand;
+  font-size: 100px;
+  text-align: left;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  top: 100px;
+  left: 250px;
+}

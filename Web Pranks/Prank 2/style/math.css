@@ -1,0 +1,43 @@
+body {
+  background-color: #CCCCFF;
+}
+
+#btnOne {
+  position: absolute;
+  left: 50px;
+  top: 450px;
+  width: 300px;
+  height: 300px;
+}
+
+#btnTwo {
+  position: absolute;
+  left: 175px;
+  top: 450px;
+  width: 300px;
+  height: 300px;
+}
+
+#btnThree {
+  position: absolute;
+  left: 300px;
+  top: 450px;
+  width: 300px;
+  height: 300px;
+}
+
+#btnFour {
+  position: absolute;
+  left: 450px;
+  top: 450px;
+  width: 300px;
+  height: 300px;
+}
+
+#btnFive {
+  position: absolute;
+  left: 600px;
+  top: 450px;
+  width: 300px;
+  height: 300px;
+}

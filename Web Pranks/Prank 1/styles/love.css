@@ -1,0 +1,19 @@
+body {
+  background-color: #FFC0CB;
+}
+
+#btnYes {
+  position:absolute;
+  left:50px;
+  top:50px;
+  width:210px;
+  height:210px;
+}
+
+#btnNo {
+  position:absolute;
+  left:100px;
+  top:50px;
+  width:210px;
+  height:210px;
+}

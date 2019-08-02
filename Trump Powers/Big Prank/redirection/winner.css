@@ -1,0 +1,69 @@
+body {
+  background-color: #000000;
+}
+.trump {
+  position: absolute;
+  top: 300;
+  left: 225;
+  width:450px;
+  height:90px;
+  background:red;
+  transform: rotate(90deg);
+}
+.tremp {
+  position: absolute;
+  top: -196;
+  left:370;
+  width:150px;
+  height:1px;
+  background:blue;
+  transform: rotate(90deg);
+}
+.title {
+  z-index: 1
+}
+.troomp {
+  position: absolute;
+  top: 570;
+  left: 385;
+  z-index: 1
+}
+.others {
+  position: absolute;
+  top: 570;
+  left: 600;
+  z-index: 1
+}
+.hunid {
+  position: absolute;
+  top: 60;
+  left: 385;
+  z-index: 2
+  rotate(90deg)
+}
+.zero {
+  position: absolute;
+  top: 500;
+  left: 640;
+  z-index: 2
+  rotate(90deg)
+}
+.re{
+  position: absolute;
+  top: 270;
+  left: 900;
+  z-index: 2
+}
+.er{
+  position: absolute;
+  top: 350;
+  left: 935;
+  z-index: 2
+}
+
+.prezpic {
+  height:100px;
+  width:50px;
+  top: 200;
+  z-index: 1
+}

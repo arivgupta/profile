@@ -1,0 +1,82 @@
+/*img {
+  position: fixed;
+  top: 450;
+  left: 310;
+  z-index: -1
+}*/
+.img1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.img2 {
+  position: fixed;
+  top: 100;
+  left: 225;
+  z-index: 0;
+}
+
+.img3 {
+  position: sticky;
+  top: 248;
+  left: 230;
+  z-index: 1;
+}
+
+.img4 {
+  position: sticky;
+  top: 125;
+  left: 230;
+  width: 10%;
+  height: 20%;
+  z-index: 1;
+}
+
+.instructions {
+  position: absolute;
+  top: 125;
+  left: 250;
+  z-index: 3
+}
+
+.trump1 {
+  position: absolute;
+  top: -5;
+  left: 550;
+  z-index: 2;
+}
+
+.trump2 {
+  position: absolute;
+  top: 582;
+  left: 550;
+  z-index: 2;
+}
+
+.trump3 {
+  position: absolute;
+  top: 300;
+  left: 20;
+  z-index: 2;
+  transform: rotate(270deg);
+}
+
+.trump4 {
+  position: absolute;
+  top: 300;
+  left: 1020;
+  z-index: 2;
+  transform: rotate(90deg);
+}
+
+embed {
+  position: absolute;
+  top: -200;
+  left: -200;
+}
+
+body{
+  cursor: url('https://img.icons8.com/color/96/000000/donald-trump.png'), auto;
+}
