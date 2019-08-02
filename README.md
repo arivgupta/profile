@@ -17,33 +17,20 @@ If you are interested with woking on something with me, click [here](https://www
 
 # Basic Shell Commands
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+There are many different types of shell commands, many can do crazy, funny, and harmless things, but many of them can actually cause a lot of damage to your computer.
 
-```markdown
-Syntax highlighted code block
+```
+ssh username@ip-address
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Academic Acheivements
+### Academic Achievements
 
 - Superintendent's Honor Roll
 
-### Extracurricular Acheivements
+### Extracurricular Achievements
 
 
 **Honors & Awards**
