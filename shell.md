@@ -11,7 +11,8 @@ For this code, you will need to install...
 
 First, you need to create a dictionary, which is denoted with squiggly brackets{}. A dictionary shows different keys and values, for which in our was, will be the letter corresponding to the morse code.
 
-`morse = {'A': '.---',
+```
+morse = {'A': '.---',
          'B': '---...',
          'C': '---.---.',
          'D': '---..',
@@ -46,7 +47,8 @@ First, you need to create a dictionary, which is denoted with squiggly brackets{
          7: '------...',
          8: '---------..',
          9: '------------.',
-         0: '---------------'}`
+         0: '---------------'}
+```
 
 Next we need to define a function called encrypt that encrypts our English into Morse Code.
 `def encrypt(msg):`
