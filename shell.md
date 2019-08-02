@@ -51,37 +51,59 @@ morse = {'A': '.---',
 ```
 
 Next we need to define a function called encrypt that encrypts our English into Morse Code.
-`def encrypt(msg):`
+```
+def encrypt(msg):
+```
 
 Then we need to define a string called cipher, which will be what the function returns as the encrypted message.
-`cipher = ''`
+```
+cipher = ''
+```
 
 Then we will create a for loop, that iterates through every letter in msg so that the function can look for each letter individually in our dictionary.
-`for letter in msg:`
+```
+for letter in msg:
+```
 
 Noe we have to make sure that the letter does not equal space, as there is no difference in a Morse Code space than an English space.
-    `if letter != ' ':`
+```
+if letter != ' ':
+```
 
 So if our code is not a space and it is a letter or a number, we will add the Morse Code equivalent of it by searching it up in out dictionary and adding it to cipher.  
-        `cipher += morse[letter] + ' '`
+```
+cipher += morse[letter] + ' '
+```
 
 Now in case the input is not a letter of number and it is a space, we create an else statement.
-    `else:`
+```
+else:
+```
 
 If it is a space, then all we need to do is add a space to our string called cipher.
-        `cipher += ' '`
+```
+cipher += ' '
+```
 
 Now we will return out string cipher as the output of the equation.        
-`return cipher`
+```
+return cipher
+```
 
 Now how will we get the user's input on what they want to encrypt. We will create a variable that will store the input called cleartextmessage.
-`cleartextmessage = input('Please enter the message you would like to encrypt: ')`
+```
+cleartextmessage = input('Please enter the message you would like to encrypt: ')
+```
 
 Now we will make another variable called secretmessage to store call the function encrypt and store the result.
-`secretmessage = encrypt(cleartextmessage.upper())`
+```
+secretmessage = encrypt(cleartextmessage.upper())
+```
 
 Now we will print the encrypted message.
-`print(secretmessage)`
+```
+print(secretmessage)
+```
 
 And there you have it, a fully functional morse code encryption device built by yourself!
 
