@@ -9,9 +9,9 @@ On this site, you will see tutorials for...
   4.Youtube Downloader
   
 I have also created some Web Based Pranks...
-  1. Do You Love me? [Click Here to Try it Out](file:///Users/ArivGupta/Documents/GitHub/profile/Web%20Pranks/Prank%201/love.html)
-  2. Who Are You? [Click Here to Try it Out](file:///Users/ArivGupta/Documents/GitHub/profile/Web%20Pranks/Prank%203/minion.html)
-  3. Trump Powers [Click Here to Try it Out](file:///Users/ArivGupta/Documents/GitHub/profile/Trump%20Powers/Big%20Prank/vote.html)
+  1. Do You Love me? [Click Here to Try it Out]
+  2. Who Are You? [Click Here to Try it Out]
+  3. Trump Powers [Click Here to Try it Out]
 
 If you are intrested with woking on something with me, click [here](https://www.linkedin.com/in/ariv-gupta-1b250b163/) to connect with me on Linkedin.
 
