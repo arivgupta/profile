@@ -11,7 +11,7 @@ On this site, you will see tutorials for...
 I have also created some Web Based Pranks...
   1. Do You Love me? [Click Here to Try it Out](Web Pranks/Prank 1/love.html)
   2. Who Are You? [Click Here to Try it Out](Web Pranks/Prank 3/minion.html)
-  3. Trump Powers [Click Here to Try it Out](Trump Powers/vote.html)
+  3. Trump Powers [Click Here to Try it Out](Trump Powers/Big Prank/vote.html)
 
 If you are interested with woking on something with me, click [here](https://www.linkedin.com/in/ariv-gupta-1b250b163/) to connect with me on Linkedin.
 
