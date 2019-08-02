@@ -121,6 +121,7 @@ decipher = ''
 ```
 
 Let's create another string called citext. The reason we are making this is so that when we iterate through morse code, since it is not one letter, we will need to add dots and dashes to this string until the for loop that we are about to initiate senses a space.
+
 ```
 citext = ''
 ```
