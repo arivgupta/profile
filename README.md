@@ -21,10 +21,36 @@ There are many different types of shell commands, many can do crazy, funny, and 
 
 ```
 ssh username@ip-address
+```
+This will get you into a computer as long as you know the computer's username, ip-address, and after you enter this, you will be prompted to enter the password for the device, so know that as well. But if you know these 3 things, you can get into any computer and do just about anything to it.
 
 ```
+cd
+```
+This will let you go into certain directories of a device.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+ls
+```
+This will let you see what files are in the directory you are in.
+
+Use Special Flags like.
+```
+Ls -a
+Ls -lh
+```
+To read hidden files and to see what a file contains. You can even combine flags to get something like.
+```
+ls -a -lh
+```
+This is a two in one package!
+
+Now hidden files are a very interesting part of our computer. They are created with a period(ex. .filename) to hide them. Most of them that you would see in your computer, I caution you, to not tamper with them as if you are in MacOs, they hide files for a reason, as they contain core components of your computer.
+
+```
+sudo rm-rf
+```
+THIS IS NOT A PRANK. This is a command using sudo, which basically gives you god permissions on your computer. Do not run this in your terminal, and if you do, it will prompt you for your password and if you do, it will DELETE ALL FILES ON YOU COMPUTER AND EVEN THE OPERATING SYSTEM. This is serious business, but we need to know this in case someone asks us randomly for our password. CHECK THE CODE. If it is in terminal and you are being asked for your password, that person is running a sudo command, and that can be potentially very dangerous.
 
 ### Academic Achievements
 
