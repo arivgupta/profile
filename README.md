@@ -3,7 +3,7 @@
 My name is Ariv and I have created this wonderful site to share some cool pranks, basic shell commands, hacks, and tips and tricks that I have learned and created. I have all of the code on my website for you to use, for that if you wish so, you can use them on your friends or as an outline to build pranks of your own.
 On this site, you will see tutorials for...
 - Python Hacks
-  1. [Keylogger](logger.md)
+  1. [Keylogger](keylogger.md)
   2. [Caesars Cipher](caesar.md)
   3. [Morse Code](morse.md)
   4. [Youtube Downloader](ytdl.md)
