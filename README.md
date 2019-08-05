@@ -50,7 +50,7 @@ Now hidden files are a very interesting part of our computer. They are created w
 ```
 sudo rm-rf
 ```
-THIS IS NOT A PRANK. This is a command using sudo, which basically gives you god permissions on your computer. Do not run this in your terminal, and if you do, it will prompt you for your password and if you do, it will DELETE ALL FILES ON YOU COMPUTER AND EVEN THE OPERATING SYSTEM. This is serious business, but we need to know this in case someone asks us randomly for our password. CHECK THE CODE. If it is in terminal and you are being asked for your password, that person is running a sudo command, and that can be potentially very dangerous.
+DO NOT USE THIS AS A PRANK. This is a command using sudo, which basically gives you god permissions on your computer. Do not run this in your terminal, and if you do, it will prompt you for your password and if you do, it will DELETE ALL FILES ON YOU COMPUTER AND EVEN THE OPERATING SYSTEM. This is serious business, but we need to know this in case someone asks us randomly for our password. CHECK THE CODE. If it is in terminal and you are being asked for your password, that person is running a sudo command, and that can be potentially very dangerous.
 
 ### Academic Achievements
 
