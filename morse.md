@@ -4,8 +4,8 @@ In this tutorial, I will show you how to build a Morse Code Encryption and Decry
 
 ## Pre Requisites
 For this code, you will need to install...
-[Py Charm Community](https://www.jetbrains.com/pycharm/download/#section=mac)
-[Python 3](https://www.python.org/downloads/)
+- [Py Charm Community](https://www.jetbrains.com/pycharm/download/#section=mac)
+- [Python 3](https://www.python.org/downloads/)
 
 ## Let's write some code...
 

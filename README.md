@@ -17,7 +17,7 @@ If you are interested with woking on something with me, click [here](https://www
 
 # Basic Shell Commands
 
-There are many different types of shell commands, many can do crazy, funny, and harmless things, but many of them can actually cause a lot of damage to your computer.
+There are many different types of shell commands, many can do crazy, funny, and harmless things, but some of them can actually cause a lot of damage to your computer.
 
 ```
 ssh username@ip-address

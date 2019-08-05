@@ -8,7 +8,7 @@ def write_to_file(key):
 
     print(key_data)
     print('{0} release'.format(key))
-    if key == Kay.esc:
+    if key == Key.esc:
         print('entered escape')
         return False
 
