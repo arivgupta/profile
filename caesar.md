@@ -183,16 +183,16 @@ Then we will print this cipher.
 print(cipher)
 ```
 
-Now we will decrypt the same cipher(you can create a new messsage to decrypt if you would like). This variable decipher will call the decrypt function and return the decrypted cipher.
+Now we will decrypt the same cipher(you can create a new message to decrypt if you would like). This variable decipher will call the decrypt function and return the decrypted cipher.
 ```
 decipher = decrypt(cipher)
 ```
 
-Now we will print the possible answers for this encryption using our returned list from the funciton.
+Now we will print the possible answers for this encryption using our returned list from the function.
 ```
 print('Possible answers for this encryption are: ', decipher)
 ```
 
-And there you have it, a caesar cipher encrypter and decrypter made by yourself!
+And there you have it, a caesar cipher encryption and decryption program made by yourself!
 
 If you would like to download this code, click [here](Caesar Cipher/Ceaser's Cipher.py).
