@@ -135,7 +135,8 @@ A new variable called num will equal the index of the letter in our letters stri
 num = letters.find(symbol) + i
 ```
 
-Now we will make an if statement saying that if the number gets bigger than the length of the letters, as if you have a z in the word and you have a shift of 5, how will the index 25 reset to 1.```
+Now we will make an if statement saying that if the number gets bigger than the length of the letters, as if you have a z in the word and you have a shift of 5, how will the index 25 reset to 1.
+```
 if num >= len(letters):
 ```
 
