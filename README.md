@@ -60,6 +60,8 @@ DO NOT USE THIS AS A PRANK. This is a command using sudo, which basically gives 
 
 - Superintendent's Honor Roll
 
+- Presidential Service Award(GOLD)
+
 ### Extracurricular Achievements
 
 
